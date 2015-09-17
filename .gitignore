@@ -1,0 +1,4 @@
+*.stamp
+*.class
+.cache
+bin
