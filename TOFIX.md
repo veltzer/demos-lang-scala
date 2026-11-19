@@ -9,7 +9,6 @@ Findings from a code scan on 2026-10-04.
 
 ## Medium
 
-- `rsconstruct.toml:1` - `.luacheckrc` is present but there is no `[processor.luacheck]`, so `config/project.lua` is never linted. Add `[processor.luacheck]` with `src_dirs = ["config"]` as in pypluggy.
 - `doc/installing_eclipse_with_scala_support.txt:1` - instructions target Eclipse Juno (4.2, 2012) nightly Scala-IDE and typesafe.com download links (line 13) that no longer exist; Scala IDE for Eclipse is discontinued. Replace with current tooling (sbt/scala-cli + Metals or IntelliJ) or delete the file together with `scripts/eclipse_scala.sh`.
 
 ## Low
